@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MECH-CAP</title><link>http://moorepants.github.io/eme185a-splash/</link><description>UC Davis Mechanical Engineering Capstone</description><atom:link href="http://moorepants.github.io/eme185a-splash/feeds/jason-k-moore-phd.rss.xml" rel="self"></atom:link><lastBuildDate>Wed, 08 Oct 2014 00:00:00 -0700</lastBuildDate><item><title>Doxie Derby Pulley System</title><link>http://moorepants.github.io/eme185a-splash/doxie-derby-pulley-system.html</link><description>&lt;iframe width="560" height="315"
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MECH-CAP</title><link>http://moorepants.github.io/eme185-splash/</link><description>UC Davis Mechanical Engineering Capstone</description><atom:link href="http://moorepants.github.io/eme185-splash/feeds/jason-k-moore-phd.rss.xml" rel="self"></atom:link><lastBuildDate>Wed, 08 Oct 2014 00:00:00 -0700</lastBuildDate><item><title>Doxie Derby Pulley System</title><link>http://moorepants.github.io/eme185-splash/doxie-derby-pulley-system.html</link><description>&lt;iframe width="560" height="315"
  src="https://www.youtube.com/embed/pgFlOz-7hQE" frameborder="0"
  allowfullscreen&gt;&lt;/iframe&gt;&lt;p&gt;Every year, UC Davis undergraduate engineering students have the opportunity to
 display their work at an engineering design showcase in June. This year, a team
 of mechanical engineers, by the request of the UC Davis Veterinary Medicine
 school, improved the out-of-date pulley system used during the much-adored
 Doxie Derby event on Picnic Day.&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Jason K. Moore, PhD</dc:creator><pubDate>Wed, 08 Oct 2014 00:00:00 -0700</pubDate><guid>tag:moorepants.github.io,2014-10-08:eme185a-splash/doxie-derby-pulley-system.html</guid></item><item><title>Mall-E</title><link>http://moorepants.github.io/eme185a-splash/mall-e.html</link><description>&lt;iframe width="560" height="315"
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Jason K. Moore, PhD</dc:creator><pubDate>Wed, 08 Oct 2014 00:00:00 -0700</pubDate><guid>tag:moorepants.github.io,2014-10-08:eme185-splash/doxie-derby-pulley-system.html</guid></item><item><title>Mall-E</title><link>http://moorepants.github.io/eme185-splash/mall-e.html</link><description>&lt;iframe width="560" height="315"
 src="https://www.youtube.com/embed/rloCGs7dZJQ" frameborder="0"
 allowfullscreen&gt;&lt;/iframe&gt;&lt;div class="line-block"&gt;
 &lt;div class="line"&gt;Team: Jacob Chavez, Andria Farrens, Patrick Reding, Albert Zhu&lt;/div&gt;
@@ -32,7 +32,7 @@ chassis was machined to mount the distance sensor and hall sensor. And a
 C-based program was constructed from different coding sub-objectives that were
 brought together with a Graphical User Interface (GUI) designed for
 straightforward user operation in Labview.&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Jason K. Moore, PhD</dc:creator><pubDate>Wed, 08 Oct 2014 00:00:00 -0700</pubDate><guid>tag:moorepants.github.io,2014-10-08:eme185a-splash/mall-e.html</guid></item><item><title>Strawberry Harvesting Robot</title><link>http://moorepants.github.io/eme185a-splash/strawberry-harvesting-robot.html</link><description>&lt;iframe width="560" height="315"
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Jason K. Moore, PhD</dc:creator><pubDate>Wed, 08 Oct 2014 00:00:00 -0700</pubDate><guid>tag:moorepants.github.io,2014-10-08:eme185-splash/mall-e.html</guid></item><item><title>Strawberry Harvesting Robot</title><link>http://moorepants.github.io/eme185-splash/strawberry-harvesting-robot.html</link><description>&lt;iframe width="560" height="315"
  src="https://www.youtube.com/embed/JEPbCn02o-4" frameborder="0"
  allowfullscreen&gt;&lt;/iframe&gt;&lt;div class="line-block"&gt;
 &lt;div class="line"&gt;Team members: Colin Brown, Oliver Chen, Vijay Ganesan, Molly Hoelper, Roger LeMesurier, Evan Racah, Scotty Waggoner&lt;/div&gt;
@@ -57,7 +57,7 @@ sensors, and encoders, as well as software including sophisticated image
 processing, filtering, and control. This proof-of-concept will allow for future
 developments including navigation software and hardware improvements,
 suspension refinement, and robot weight and manufacturing modifications.&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Jason K. Moore, PhD</dc:creator><pubDate>Wed, 08 Oct 2014 00:00:00 -0700</pubDate><guid>tag:moorepants.github.io,2014-10-08:eme185a-splash/strawberry-harvesting-robot.html</guid></item><item><title>Trebuchet</title><link>http://moorepants.github.io/eme185a-splash/trebuchet.html</link><description>&lt;iframe width="560" height="315"
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Jason K. Moore, PhD</dc:creator><pubDate>Wed, 08 Oct 2014 00:00:00 -0700</pubDate><guid>tag:moorepants.github.io,2014-10-08:eme185-splash/strawberry-harvesting-robot.html</guid></item><item><title>Trebuchet</title><link>http://moorepants.github.io/eme185-splash/trebuchet.html</link><description>&lt;iframe width="560" height="315"
  src="https://www.youtube.com/embed/79ykB5mUBy8" frameborder="0"
  allowfullscreen&gt;&lt;/iframe&gt;&lt;div class="line-block"&gt;
 &lt;div class="line"&gt;Team: Lars Mortenson, Jason Lamb, Donovan Deame, and Kyle Hutchison&lt;/div&gt;
@@ -66,7 +66,7 @@ suspension refinement, and robot weight and manufacturing modifications.&lt;/p&g
 display their work at an engineering design showcase in June. This year, a team
 of mechanical engineers were challenged to build a full-scale, life-sized
 medieval catapult called a trebuchet.&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Jason K. Moore, PhD</dc:creator><pubDate>Tue, 08 Oct 2013 00:00:00 -0700</pubDate><guid>tag:moorepants.github.io,2013-10-08:eme185a-splash/trebuchet.html</guid></item><item><title>Low-cost Pediatric Treadmill</title><link>http://moorepants.github.io/eme185a-splash/low-cost-pediatric-treadmill.html</link><description>&lt;div class="line-block"&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Jason K. Moore, PhD</dc:creator><pubDate>Tue, 08 Oct 2013 00:00:00 -0700</pubDate><guid>tag:moorepants.github.io,2013-10-08:eme185-splash/trebuchet.html</guid></item><item><title>Low-cost Pediatric Treadmill</title><link>http://moorepants.github.io/eme185-splash/low-cost-pediatric-treadmill.html</link><description>&lt;div class="line-block"&gt;
 &lt;div class="line"&gt;Student Team: Derek Chow, Adam Li, Norman Lei, Erik Pettitt&lt;/div&gt;
 &lt;div class="line"&gt;Faculty Mentor: Prof. Cristina Davis&lt;/div&gt;
 &lt;/div&gt;
@@ -83,4 +83,4 @@ to 1.0 miles per hour. Other features of the pediatric treadmill are that it is
 lightweight, transportable, and has low initial and maintenance costs.  The
 design of the pediatric treadmill aims to provide a viable and long-lasting
 solution for promoting development of motor skills in children.&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Jason K. Moore, PhD</dc:creator><pubDate>Sat, 08 Oct 2011 00:00:00 -0700</pubDate><guid>tag:moorepants.github.io,2011-10-08:eme185a-splash/low-cost-pediatric-treadmill.html</guid></item></channel></rss>
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Jason K. Moore, PhD</dc:creator><pubDate>Sat, 08 Oct 2011 00:00:00 -0700</pubDate><guid>tag:moorepants.github.io,2011-10-08:eme185-splash/low-cost-pediatric-treadmill.html</guid></item></channel></rss>
