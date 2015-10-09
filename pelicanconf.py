@@ -7,13 +7,13 @@ SITENAME = u'MECH-CAP'
 SITESUBTITLE = 'UC Davis Mechanical Engineering Capstone'
 SITEURL = ''
 
-THEME = '/home/moorepants/src/freelancer-theme-pelican'
+THEME = 'theme'
 THEME_STATIC_DIR = 'static'
 PATH = 'content'
 STATIC_PATHS = ['images', 'js', 'css', 'fonts']
 TIMEZONE = 'US/Pacific'
 
-DEFAULT_LANG = u'es'
+DEFAULT_LANG = u'en'
 BOOTSTRAP_FILE = 'bootstrap.css'
 CSS_FILE = 'freelancer.css'
 FONTS = 'fonts'

@@ -1,0 +1,260 @@
+{% extends "base.html" %}
+
+{% block title %}
+{{SITENAME}}
+{% endblock %}
+
+{% block nav %}
+
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#page-top">
+              <!-- TODO : This logo is hacked in, should be done better. -->
+              <img class="img-responsive" style="margin: 0 0 0.1em" width=100em src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/ucdavis_logo_gold.png" alt="">
+              {{SITENAME}}
+            </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+          {% for link, title  in NAVLINKS %}
+            {%if link == '#page-top' %}
+            <li class="hidden">
+              <a href="{{link}}"></a>
+            </li>
+            {% else %}
+            <li class="page-scroll">
+              <a href="{{link}}">{{title}}</a>
+            </li>
+            {% endif %}
+          {% endfor %}
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+
+{% endblock %}
+
+{% block header %}
+
+<!-- Header -->
+<header>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <img class="img-responsive" style="float: left;" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/female.png" alt="">
+        <img class="img-responsive" style="float: right;" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/male.png" alt="">
+        <div class="intro-text">
+          <span class="name">{{SITENAME}}</span>
+          <hr class="star-light">
+          <span class="skills">{{SITESUBTITLE}}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+{% endblock %}
+
+
+{% block grid %}
+
+<!-- Portfolio Grid Section -->
+<section id="portfolio" class='success'>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2>{{PORTFOLIO}}</h2>
+                <hr class="star-light">
+            </div>
+        </div>
+
+        <div class="row">
+        {% if articles %}
+          {% for article in articles_page.object_list %}
+          <div class="col-sm-4 portfolio-item">
+                <a href="#portfolioModal{{loop.index}}" class="portfolio-link" data-toggle="modal">
+                    <div class="caption">
+                        <div class="caption-content">
+                            <i class="fa fa-search-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/portfolio/{{article.image}}" class="img-responsive" alt="">
+                </a>
+            </div>
+          {% endfor %}
+        {% endif %}
+
+        </div>
+    </div>
+</section>
+
+{% endblock %}
+
+
+{% block contact %}
+<!-- Contact Section -->
+<section id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2>Call for Proposals</h2>
+        <hr class="star-primary">
+        <p>Do you have an idea to address a pressing need? Do you have a need
+        for a device or process to improve your product or to enhance your
+        research? Consider interacting with our Mechanical Engineering Capstone
+        Design course!</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6">
+        <p>We are soliciting project ideas appropriate for a team of
+        undergraduate mechanical engineers to tackle in a 6-month time frame
+        (January to June). Teams of students work to conceptualize, design,
+        implement, and test a functional prototype by the end of the course
+        that meets a stakeholder's needs.</p>
+      </div>
+      <div class="col-lg-6">
+        <p>Approximately thirty proposals will be selected for the program.
+        The projects often result in a finished prototype or at the least
+        detailed plans for its implementation. The best projects are able to be
+        completed in a 6-month time period and maximize student generated
+        creative input.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2">
+        <p>The courses will culminate with the College of Engineering's <a
+          href="http://engineering.ucdavis.edu/undergraduate/senior-engineering-design-showcase/">
+          Design Showcase</a> where selected stakeholder representatives will
+        judge the teams' work.
+        </p>
+
+        <p>If interested, please provide a brief proposal in the following form
+        that addresses:</p>
+
+        <ul>
+          <li>The problem or need</li>
+          <li>Desired outcomes</li>
+          <li>Contact information for one or more persons able to
+          provide student mentorship</li>
+        </ul>
+
+        <p>The course instructors will review the projects, select the number
+        needed for the course, and match them to qualified student teams. We
+        will follow up with a phone call and/or email.</p>
+
+        <div class="text-center">
+          <p><strong>Proposal Deadline: 5:00 PM, Friday, October 30,
+            2015.</strong></p>
+          <p>Thank you for supporting UC Davis engineering education!</p>
+        </div>
+
+      </div>
+    </div>
+
+          <div class="row">
+              <div class="col-lg-8 col-lg-offset-2">
+                  <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
+                  <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
+                  <form name="sentMessage" id="contactForm" novalidate>
+            {% for field in CONTACT_FIELDS %}
+              <div class="row control-group">
+                  <div class="form-group col-xs-12 floating-label-form-group controls">
+
+                {% if field[1] == 'textarea' %}
+
+                      <label>{{field[0]}}</label>
+                      <textarea rows="5" class="form-control" placeholder="{{field[0]}}" id="{{field[2]}}" required data-validation-required-message="{{field[3]}}"></textarea>
+                      <p class="help-block text-danger"></p>
+
+                {% else %}
+
+                      <label>{{field[0]}}</label>
+                      <input type="{{field[1]}}" class="form-control" placeholder="{{field[0]}}" id="{{field[2]}}" required data-validation-required-message="{{field[3]}}">
+                      <p class="help-block text-danger"></p>
+
+                {% endif %}
+
+
+
+                  </div>
+              </div>
+
+            {% endfor %}
+
+
+                      <br>
+                      <div id="success"></div>
+                      <div class="row">
+                          <div class="form-group col-xs-12">
+                              <button type="submit" class="btn btn-success btn-lg">Send</button>
+                          </div>
+                      </div>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </section>
+{% endblock %}
+
+
+
+{% block modals %}
+  {% if articles %}
+      {% for article in articles_page.object_list %}
+      <div class="portfolio-modal modal fade" id="portfolioModal{{loop.index}}" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="modal-content">
+              <div class="close-modal" data-dismiss="modal">
+                  <div class="lr">
+                      <div class="rl">
+                      </div>
+                  </div>
+              </div>
+              <div class="container">
+                  <div class="row">
+                      <div class="col-lg-8 col-lg-offset-2">
+                          <div class="modal-body">
+                              <h2>{{article.title}}</h2>
+                              <hr class="star-primary">
+                              <img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/portfolio/{{article.image}}" class="img-responsive img-centered" alt="">
+                              <p>{{article.content}}</p>
+                              <ul class="list-inline item-details">
+                                  <li>Client:
+                                      <strong><a href="{{article.client_link}}">{{article.client}}</a>
+                                      </strong>
+                                  </li>
+                                  <li>Date:
+                                      <strong><a href="http://startbootstrap.com">{{article.date}}</a>
+                                      </strong>
+                                  </li>
+                                  <li>Service:
+                                      <strong><a href="http://startbootstrap.com">{{article.service}}</a>
+                                      </strong>
+                                  </li>
+                              </ul>
+                              <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    {% endfor %}
+  {% endif %}
+
+  <!-- Portfolio Modals -->
+
+
+{% endblock %}
