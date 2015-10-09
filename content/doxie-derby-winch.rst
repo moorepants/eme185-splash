@@ -3,7 +3,7 @@
 :image: cabin.png
 :client: ?
 :Client_Link: ?
-:Service: Design and Prototype Fabrication
+:Service: Design and Fabrication
 
 .. raw:: html
 
