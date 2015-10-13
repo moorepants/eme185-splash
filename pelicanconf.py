@@ -13,6 +13,8 @@ PATH = 'content'
 STATIC_PATHS = ['images', 'js', 'css', 'fonts']
 TIMEZONE = 'US/Pacific'
 
+DEFAULT_DATE_FORMAT = ('%Y')
+
 DEFAULT_LANG = u'en'
 BOOTSTRAP_FILE = 'bootstrap.css'
 CSS_FILE = 'freelancer.css'

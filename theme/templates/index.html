@@ -237,12 +237,10 @@
                                       </strong>
                                   </li>
                                   <li>Date:
-                                      <strong><a href="http://startbootstrap.com">{{article.date}}</a>
-                                      </strong>
+                                      <strong>{{article.date.strftime("%Y")}}</strong>
                                   </li>
                                   <li>Service:
-                                      <strong><a href="http://startbootstrap.com">{{article.service}}</a>
-                                      </strong>
+                                      <strong>{{article.service}}</strong>
                                   </li>
                               </ul>
                               <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
