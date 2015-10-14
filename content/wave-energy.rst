@@ -19,6 +19,8 @@ to a basic design that individuals or collective groups could build and improve
 upon. Our goal was to develop the basic framework for a wave energy converter
 (WEC) and share this information with the public.
 
+.. image:: {filename}/images/wave-energy-buoy-construction.jpg
+
 To achieve this objective, a team of five mechanical engineering students
 designed, built, and tested a fully functioning wave energy converter with the
 goal of generating 150 watts of peak power. The WEC was engineered to be

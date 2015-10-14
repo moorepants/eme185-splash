@@ -21,3 +21,5 @@ to 1.0 miles per hour. Other features of the pediatric treadmill are that it is
 lightweight, transportable, and has low initial and maintenance costs.  The
 design of the pediatric treadmill aims to provide a viable and long-lasting
 solution for promoting development of motor skills in children.
+
+.. image:: {filename}/images/pediatric-treadmill.png
