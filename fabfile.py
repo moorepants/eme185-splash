@@ -12,8 +12,8 @@ env.deploy_path = 'output'
 DEPLOY_PATH = env.deploy_path
 
 # Remote server configuration
-production = 'root@localhost:22'
-dest_path = '/var/www'
+production = 'jasonkmoore@moorepants.info'
+dest_path = '/home/jasonkmoore/moorepants.info/mech-cap'
 
 # Rackspace Cloud Files configuration settings
 env.cloudfiles_username = 'my_rackspace_username'
@@ -90,6 +90,6 @@ def publish():
 def gh_pages():
     """Publish to GitHub Pages"""
     clean()
-    local('pelican -s publishconf.py')
+    local('pelican -s ghconf.py')
     local("ghp-import -n -b {github_pages_branch} {deploy_path}".format(**env))
     local("git push origin {github_pages_branch}".format(**env))
