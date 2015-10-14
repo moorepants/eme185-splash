@@ -54,5 +54,5 @@ CONTACT_FIELDS = (
     ['Name', 'text', 'name', 'Please enter your name.'],
     ['Email Address', 'email', 'email','Please enter your email address.'],
     ['Phone Number', 'tel', 'phone', 'Please enter your phone number.'],
-    ['Message', 'textarea', 'message', 'Please enter a message.']
+    ['Proposal', 'textarea', 'message', 'Please enter a proposal.']
 )
