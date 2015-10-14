@@ -72,33 +72,34 @@
 
 <!-- Portfolio Grid Section -->
 <section id="portfolio" class='success'>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2>{{PORTFOLIO}}</h2>
-                <hr class="star-light">
-            </div>
-        </div>
-
-        <div class="row">
-        {% if articles %}
-          {% for article in articles_page.object_list %}
-          <div class="col-sm-4 portfolio-item">
-                <a href="#portfolioModal{{loop.index}}" class="portfolio-link" data-toggle="modal">
-                    <div class="caption">
-                        <div class="caption-content">
-                            <i class="fa fa-search-plus fa-3x"></i>
-                            <h3>{{article.title}}</h3>
-                        </div>
-                    </div>
-                    <img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/portfolio/{{article.image}}" class="img-responsive" alt="">
-                </a>
-            </div>
-          {% endfor %}
-        {% endif %}
-
-        </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2>{{PORTFOLIO}}</h2>
+        <hr class="star-light">
+      </div>
     </div>
+    <div class="row">
+      <!-- TODO : Remove the offset once three or more articles are in place. -->
+      <div class="col-lg-12 col-lg-offset-2">
+      {% if articles %}
+      {% for article in articles_page.object_list %}
+      <div class="col-sm-4 portfolio-item">
+        <a href="#portfolioModal{{loop.index}}" class="portfolio-link" data-toggle="modal">
+          <div class="caption">
+            <div class="caption-content">
+              <i class="fa fa-search-plus fa-3x"></i>
+              <h3>{{article.title}}</h3>
+            </div>
+          </div>
+          <img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/portfolio/{{article.image}}" class="img-responsive" alt="">
+        </a>
+      </div>
+      {% endfor %}
+      {% endif %}
+      </div>
+    </div>
+  </div>
 </section>
 
 {% endblock %}
@@ -215,46 +216,41 @@
 
 {% block modals %}
   {% if articles %}
-      {% for article in articles_page.object_list %}
-      <div class="portfolio-modal modal fade" id="portfolioModal{{loop.index}}" tabindex="-1" role="dialog" aria-hidden="true">
-          <div class="modal-content">
-              <div class="close-modal" data-dismiss="modal">
-                  <div class="lr">
-                      <div class="rl">
-                      </div>
-                  </div>
-              </div>
-              <div class="container">
-                  <div class="row">
-                      <div class="col-lg-8 col-lg-offset-2">
-                          <div class="modal-body">
-                              <h2>{{article.title}}</h2>
-                              <hr class="star-primary">
-                              <img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/portfolio/{{article.image}}" class="img-responsive img-centered" alt="">
-                              <p>{{article.content}}</p>
-                              <ul class="list-inline item-details">
-                                  <li>Client:
-                                      <strong><a href="{{article.client_link}}">{{article.client}}</a>
-                                      </strong>
-                                  </li>
-                                  <li>Date:
-                                      <strong>{{article.date.strftime("%Y")}}</strong>
-                                  </li>
-                                  <li>Service:
-                                      <strong>{{article.service}}</strong>
-                                  </li>
-                              </ul>
-                              <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                          </div>
-                      </div>
-                  </div>
-              </div>
+    {% for article in articles_page.object_list %}
+    <div class="portfolio-modal modal fade" id="portfolioModal{{loop.index}}" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl">
+            </div>
           </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+              <div class="modal-body">
+                <h2>{{article.title}}</h2>
+                <hr class="star-primary">
+                <img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/portfolio/{{article.image}}" class="img-responsive img-centered" alt="">
+                <p>{{article.content}}</p>
+                <ul class="list-inline item-details">
+                  <li>Client:
+                    <strong><a href="{{article.client_link}}">{{article.client}}</a></strong>
+                  </li>
+                  <li>Date:
+                    <strong>{{article.date.strftime("%Y")}}</strong>
+                  </li>
+                  <li>Service:
+                    <strong>{{article.service}}</strong>
+                  </li>
+                </ul>
+                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+    </div>
     {% endfor %}
   {% endif %}
-
-  <!-- Portfolio Modals -->
-
-
 {% endblock %}
