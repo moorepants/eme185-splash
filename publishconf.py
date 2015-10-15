@@ -11,3 +11,5 @@ sys.path.append(os.curdir)
 from ghconf import *
 
 SITEURL = 'http://moorepants.info/mech-cap'
+
+GOOGLE_ANALYTICS = "UA-15966419-6"
