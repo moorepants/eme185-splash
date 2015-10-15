@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MECH-CAP</title><link>http://moorepants.github.io/eme185-splash/</link><description>UC Davis Mechanical Engineering Capstone</description><atom:link href="http://moorepants.github.io/eme185-splash/feeds/jason-k-moore-phd.rss.xml" rel="self"></atom:link><lastBuildDate>Sun, 13 Oct 2013 00:00:00 -0700</lastBuildDate><item><title>Wave Energy Converter</title><link>http://moorepants.github.io/eme185-splash/wave-energy-converter.html</link><description>&lt;div class="line-block"&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MECH-CAP</title><link>http://moorepants.github.io/eme185-splash/</link><description>UC Davis Mechanical Engineering Capstone</description><atom:link href="http://moorepants.github.io/eme185-splash/feeds/jason-k-moore-phd.rss.xml" rel="self"></atom:link><lastBuildDate>Tue, 14 Oct 2014 00:00:00 -0700</lastBuildDate><item><title>Weinbot</title><link>http://moorepants.github.io/eme185-splash/weinbot.html</link><description>&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;Student Team: Egan McComb, Ardalan Moazeni, Natalie Pueyo Svoboda, Kyle Turner&lt;/div&gt;
+&lt;div class="line"&gt;Faculty Advisor: Prof. Cristina Davis, Prof Stephen Robinson&lt;/div&gt;
+&lt;div class="line"&gt;Sponsor: Professor David Block&lt;/div&gt;
+&lt;div class="line"&gt;Awards: 2015 Sandia Engineering Design Award&lt;/div&gt;
+&lt;div class="line"&gt;More info: &lt;a class="reference external" href="https://www.behance.net/gallery/27587497/Autonomous-Floor-Cleaning-Robot"&gt;https://www.behance.net/gallery/27587497/Autonomous-Floor-Cleaning-Robot&lt;/a&gt;&lt;/div&gt;
+&lt;div class="line"&gt;Software Repository: &lt;a class="reference external" href="https://github.com/egan/weinbot"&gt;https://github.com/egan/weinbot&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;The current crush pad cleanup at most wineries is grossly water inefficient.
+This design is an autonomous proof-of-concept industrial winery floor care
+robot. The battery powered device can effectively dislodge and collect solid
+grape waste from typical winery concrete flooring with minimal water use.&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/SKNtMgGCCyI"
+  frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Jason K. Moore, PhD</dc:creator><pubDate>Tue, 14 Oct 2014 00:00:00 -0700</pubDate><guid>tag:moorepants.github.io,2014-10-14:eme185-splash/weinbot.html</guid></item><item><title>Wave Energy Converter</title><link>http://moorepants.github.io/eme185-splash/wave-energy-converter.html</link><description>&lt;div class="line-block"&gt;
 &lt;div class="line"&gt;Team: Nick Raymond, Thomas Rumble, Teresa Yeh, Kevin Quach, Alex Beckerman&lt;/div&gt;
 &lt;div class="line"&gt;Faculty Mentor: Professor Cristina Davis&lt;/div&gt;
 &lt;div class="line"&gt;Website: &lt;a class="reference external" href="https://oceanpowerproject.wordpress.com"&gt;https://oceanpowerproject.wordpress.com&lt;/a&gt;&lt;/div&gt;
@@ -26,7 +39,7 @@ watts. Even though the device failed to meet the expected power output, the
 team has compiled the following information and shared it on this website in
 hopes of encouraging others to take on similar projects and make improvements
 to the work that has already been done.&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Jason K. Moore, PhD</dc:creator><pubDate>Sun, 13 Oct 2013 00:00:00 -0700</pubDate><guid>tag:moorepants.github.io,2013-10-13:eme185-splash/wave-energy-converter.html</guid></item><item><title>Low-cost Pediatric Treadmill</title><link>http://moorepants.github.io/eme185-splash/low-cost-pediatric-treadmill.html</link><description>&lt;div class="line-block"&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Jason K. Moore, PhD</dc:creator><pubDate>Mon, 14 Oct 2013 00:00:00 -0700</pubDate><guid>tag:moorepants.github.io,2013-10-14:eme185-splash/wave-energy-converter.html</guid></item><item><title>Low-cost Pediatric Treadmill</title><link>http://moorepants.github.io/eme185-splash/low-cost-pediatric-treadmill.html</link><description>&lt;div class="line-block"&gt;
 &lt;div class="line"&gt;Student Team: Derek Chow, Adam Li, Norman Lei, Erik Pettitt&lt;/div&gt;
 &lt;div class="line"&gt;Faculty Mentor: Prof. Cristina Davis&lt;/div&gt;
 &lt;/div&gt;
@@ -44,4 +57,4 @@ lightweight, transportable, and has low initial and maintenance costs.  The
 design of the pediatric treadmill aims to provide a viable and long-lasting
 solution for promoting development of motor skills in children.&lt;/p&gt;
 &lt;img alt="" src="http://moorepants.github.io/eme185-splash/images/pediatric-treadmill.png" /&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Jason K. Moore, PhD</dc:creator><pubDate>Thu, 13 Oct 2011 00:00:00 -0700</pubDate><guid>tag:moorepants.github.io,2011-10-13:eme185-splash/low-cost-pediatric-treadmill.html</guid></item></channel></rss>
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Jason K. Moore, PhD</dc:creator><pubDate>Fri, 14 Oct 2011 00:00:00 -0700</pubDate><guid>tag:moorepants.github.io,2011-10-14:eme185-splash/low-cost-pediatric-treadmill.html</guid></item></channel></rss>
