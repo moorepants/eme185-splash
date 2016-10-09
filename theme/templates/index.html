@@ -167,50 +167,76 @@
       </div>
     </div>
 
-          <div class="row">
-              <div class="col-lg-8 col-lg-offset-2">
-                <h3>Proposal Form:</h3>
-                  <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
-                  <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
-                  <form name="sentMessage" id="contactForm" novalidate>
-            {% for field in CONTACT_FIELDS %}
-              <div class="row control-group">
-                  <div class="form-group col-xs-12 floating-label-form-group controls">
-
-                {% if field[1] == 'textarea' %}
-
-                      <label>{{field[0]}}</label>
-                      <textarea rows="5" class="form-control" placeholder="{{field[0]}}" id="{{field[2]}}" required data-validation-required-message="{{field[3]}}"></textarea>
-                      <p class="help-block text-danger"></p>
-
-                {% else %}
-
-                      <label>{{field[0]}}</label>
-                      <input type="{{field[1]}}" class="form-control" placeholder="{{field[0]}}" id="{{field[2]}}" required data-validation-required-message="{{field[3]}}">
-                      <p class="help-block text-danger"></p>
-
-                {% endif %}
-
-
-
-                  </div>
-              </div>
-
-            {% endfor %}
-
-
-                      <br>
-                      <div id="success"></div>
-                      <div class="row">
-                          <div class="form-group col-xs-12">
-                              <button type="submit" class="btn btn-success btn-lg">Send</button>
-                          </div>
-                      </div>
-                  </form>
-              </div>
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2">
+        <h3>Proposal Form:</h3>
+          <!-- To configure the contact form email address, go to
+            mail/contact_me.php and update the email address in the PHP file on
+            line 19. -->
+          <!-- The form should work on most web servers, but if the form is not
+            working you may need to configure your web server differently. -->
+        <form name="sentMessage" id="contactForm" enctype="multipart/form-data" novalidate>
+        {% for field in CONTACT_FIELDS %}
+          <div class="row control-group">
+            <div class="form-group col-xs-12 floating-label-form-group controls">
+              <label>{{field[0]}}</label>
+            {% if field[1] == 'textarea' %}
+              <!-- Note that the closing tag for textarea has to be on same
+                line: http://stackoverflow.com/a/14048003/467314 -->
+              <textarea
+                rows="5"
+                class="form-control"
+                placeholder="{{field[0]}}"
+                id="{{field[2]}}"
+                required
+                data-validation-required-message="{{field[3]}}"></textarea>
+            {% else %}
+              <input
+                type="{{field[1]}}"
+                class="form-control"
+                placeholder="{{field[0]}}"
+                id="{{field[2]}}"
+                required
+                data-validation-required-message="{{field[3]}}">
+            {% endif %}
+              <p class="help-block text-danger"></p>
+            </div>
           </div>
-      </div>
-  </section>
+        {% endfor %}
+          <!-- Upload button from: https://codepen.io/CSWApps/pen/GKtvH -->
+          <div class="row control-group">
+            <input type="file" name="file" id="file" class="file">
+            <div class="input-group col-xs-12">
+              <span class="input-group-addon">
+                <i class="glyphicon glyphicon-file"></i>
+              </span>
+              <input
+                type="text"
+                class="form-control"
+                disabled
+                placeholder="Upload Attachment"
+              >
+              <span class="input-group-btn">
+                <button class="browse btn btn-success" type="button">
+                  <i class="glyphicon glyphicon-search"></i>
+                  Browse
+                </button>
+              </span>
+            </div>
+          </div>
+          <br>
+          <div id="success">
+          </div>
+          <div class="row">
+            <div class="form-group col-xs-12">
+              <button type="submit" class="btn btn-success btn-lg">Send</button>
+            </div>
+          </div>
+        </form>
+      </div> <!-- col -->
+    </div> <!-- row -->
+  </div> <!-- container -->
+</section>
 {% endblock %}
 
 

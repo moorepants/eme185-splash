@@ -28,7 +28,8 @@ SCRIPTS = [
     'cbpAnimatedHeader.js',
     'jqBootstrapValidation.js',
     'contact_me.js',
-    'freelancer.js'
+    'freelancer.js',
+    'attachment.js',
 ]
 
 # Feed generation is usually not desired when developing
@@ -55,5 +56,6 @@ CONTACT_FIELDS = (
     ['Organization', 'text', 'org', 'Please enter your company or institution.'],
     ['Email Address', 'email', 'email', 'Please enter your email address.'],
     ['Phone Number', 'tel', 'phone', 'Please enter your phone number.'],
-    ['Proposal', 'textarea', 'message', 'Please enter a proposal.']
+    ['Proposal Title', 'text', 'title', 'Please enter your proposal title.'],
+    ['Proposal Text (an additional single file attachment is also supported below)', 'textarea', 'message', 'Please enter a proposal.']
 )
