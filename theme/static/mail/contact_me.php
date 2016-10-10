@@ -22,6 +22,8 @@ $phone = $_POST['phone'];
 $title = $_POST['title'];
 $message = $_POST['message'];
 
+// http://www.html-form-guide.com/email-form/php-email-form-attachment.html
+
 //Get the uploaded file information
 $name_of_uploaded_file = basename($_FILES['file']['name']);
 
