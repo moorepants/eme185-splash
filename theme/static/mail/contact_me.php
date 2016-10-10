@@ -71,7 +71,7 @@ if (!file_exists($upload_folder)) {
 }
 $path_of_uploaded_file = $upload_folder . $name_of_uploaded_file;
 $tmp_path = $_FILES["file"]["tmp_name"];
- 
+
 if(is_uploaded_file($tmp_path))
 {
   if(!copy($tmp_path,$path_of_uploaded_file))
