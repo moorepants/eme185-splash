@@ -65,7 +65,7 @@ if(!$allowed_ext)
 
 //copy the temp. uploaded file to uploads folder
 $home = getenv("HOME");
-$upload_folder = "$home/eme185-uploads/";
+$upload_folder = "$home/moorepants.info/eme185-uploads/";
 if (!file_exists($upload_folder)) {
     mkdir($upload_folder, 0777, true);
 }
@@ -81,7 +81,6 @@ if(is_uploaded_file($tmp_path))
 }
 
 // Create the email and send the message
-// Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
 $to = 'jkm@ucdavis.edu';
 $email_subject = "[MECH-CAP Proposal]:  $name, $org";
 $email_body = <<<EOT
