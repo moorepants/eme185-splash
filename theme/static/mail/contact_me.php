@@ -64,8 +64,7 @@ if(!$allowed_ext)
 }
 
 //copy the temp. uploaded file to uploads folder
-$home = getenv("HOME");
-$upload_folder = "$home/moorepants.info/eme185-uploads/";
+$upload_folder = "/home/jasonkmoore/moorepants.info/eme185-uploads/";
 if (!file_exists($upload_folder)) {
     mkdir($upload_folder, 0777, true);
 }
