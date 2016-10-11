@@ -2,6 +2,8 @@
 
 if(!defined('STDOUT')) define('STDOUT', fopen('php://stdout', 'w'));
 
+$timestamp = date( "Y-m-d H:i:s", mktime(0, 0, 0));
+
 // Check for empty fields
 if(empty($_POST['name']) ||
    empty($_POST['org']) ||
@@ -94,6 +96,7 @@ if (file_exists($csv_file)) {
   $file = new SplFileObject($csv_file, 'w');
 }
 $file->fputcsv(array(
+  $timestamp,
   $name,
   $org,
   $email_address,
