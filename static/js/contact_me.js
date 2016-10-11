@@ -12,22 +12,37 @@ $(function() {
             var org = $("input#org").val();
             var email = $("input#email").val();
             var phone = $("input#phone").val();
+            var title = $("input#title").val();
             var message = $("textarea#message").val();
             var firstName = name; // For Success/Failure Message
             // Check for white space in name for Success/Fail message
             if (firstName.indexOf(' ') >= 0) {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
+            var formData = new FormData();
+            formData.append('name', name);
+            formData.append('org', org);
+            formData.append('email', email);
+            formData.append('phone', phone);
+            formData.append('title', title);
+            formData.append('message', message);
+            formData.append('file', $('#file').prop('files')[0]);
+            console.log(formData);
             $.ajax({
                 url: "././static/mail/contact_me.php",
                 type: "POST",
-                data: {
-                    name: name,
-                    org: org,
-                    phone: phone,
-                    email: email,
-                    message: message
-                },
+                data: formData,
+                processData: false,
+                contentType: false,
+                // data: {
+                    // name: name,
+                    // org: org,
+                    // email: email,
+                    // phone: phone,
+                    // title: title,
+                    // message: message,
+                    // file: file
+                // },
                 cache: false,
                 success: function() {
                     // Success message
@@ -35,7 +50,7 @@ $(function() {
                     $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>");
                     $('#success > .alert-success')
-                        .append("<strong>Your message has been sent. </strong>");
+                        .append("<strong>Your proposal has been sent and you should receive a confirmation email. </strong>");
                     $('#success > .alert-success')
                         .append('</div>');
 
