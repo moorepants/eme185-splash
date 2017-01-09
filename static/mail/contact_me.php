@@ -70,8 +70,10 @@ $upload_folder = "/home/jasonkmoore/moorepants.info/eme185-uploads/";
 if (!file_exists($upload_folder)) {
     mkdir($upload_folder, 0777, true);
 }
+$shortened_title = substr($title, 0, 10);
+$shortened_org = substr($org, 0, 10);
 $custom_file_name = mb_ereg_replace("([^\w\d\-_\[\]\(\)])", '_',
-  $name."-".$org."-".$title);
+  $name."-".$shortened_org."-".$shortened_title);
 $attachment_filename = $custom_file_name.'.'.$type_of_uploaded_file;
 $path_of_uploaded_file = $upload_folder . $attachment_filename;
 $tmp_path = $_FILES["file"]["tmp_name"];

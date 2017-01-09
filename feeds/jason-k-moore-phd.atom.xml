@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>MECH-CAP</title><link href="http://moorepants.github.io/eme185-splash/" rel="alternate"></link><link href="http://moorepants.github.io/eme185-splash/feeds/jason-k-moore-phd.atom.xml" rel="self"></link><id>http://moorepants.github.io/eme185-splash/</id><updated>2016-10-11T00:00:00-07:00</updated><entry><title>Adaptive Target for Jumping Studies</title><link href="http://moorepants.github.io/eme185-splash/adaptive-target-for-jumping-studies.html" rel="alternate"></link><published>2016-10-11T00:00:00-07:00</published><updated>2016-10-11T00:00:00-07:00</updated><author><name>Jason K. Moore, PhD</name></author><id>tag:moorepants.github.io,2016-10-11:eme185-splash/adaptive-target-for-jumping-studies.html</id><summary type="html">&lt;div class="line-block"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>MECH-CAP</title><link href="http://moorepants.github.io/eme185-splash/" rel="alternate"></link><link href="http://moorepants.github.io/eme185-splash/feeds/jason-k-moore-phd.atom.xml" rel="self"></link><id>http://moorepants.github.io/eme185-splash/</id><updated>2016-01-09T00:00:00-08:00</updated><entry><title>Adaptive Target for Jumping Studies</title><link href="http://moorepants.github.io/eme185-splash/adaptive-target-for-jumping-studies.html" rel="alternate"></link><published>2016-01-09T00:00:00-08:00</published><updated>2016-01-09T00:00:00-08:00</updated><author><name>Jason K. Moore, PhD</name></author><id>tag:moorepants.github.io,2016-01-09:eme185-splash/adaptive-target-for-jumping-studies.html</id><summary type="html">&lt;div class="line-block"&gt;
 &lt;div class="line"&gt;Student Team: Jacob Alameda, Cyrus Caretto, Joseph Chua&lt;/div&gt;
 &lt;div class="line"&gt;Faculty Mentor: Jason K. Moore&lt;/div&gt;
 &lt;/div&gt;
@@ -14,7 +14,7 @@ stepper motor and Arduino Uno, and responds to two proximity sensors and an
 accelerometer which indicates the test subject’s jump heights. This design was
 chosen because it was simple to build, easy to store away, and is the best way
 satisfy all of our sponsor’s needs and suggestions.&lt;/p&gt;
-</summary></entry><entry><title>Automatic Board Feeder for Custom Saw/drill Station</title><link href="http://moorepants.github.io/eme185-splash/automatic-board-feeder-for-custom-sawdrill-station.html" rel="alternate"></link><published>2016-10-11T00:00:00-07:00</published><updated>2016-10-11T00:00:00-07:00</updated><author><name>Jason K. Moore, PhD</name></author><id>tag:moorepants.github.io,2016-10-11:eme185-splash/automatic-board-feeder-for-custom-sawdrill-station.html</id><summary type="html">&lt;div class="line-block"&gt;
+</summary></entry><entry><title>Automatic Board Feeder for Custom Saw/drill Station</title><link href="http://moorepants.github.io/eme185-splash/automatic-board-feeder-for-custom-sawdrill-station.html" rel="alternate"></link><published>2016-01-09T00:00:00-08:00</published><updated>2016-01-09T00:00:00-08:00</updated><author><name>Jason K. Moore, PhD</name></author><id>tag:moorepants.github.io,2016-01-09:eme185-splash/automatic-board-feeder-for-custom-sawdrill-station.html</id><summary type="html">&lt;div class="line-block"&gt;
 &lt;div class="line"&gt;Student Team: Micah Starr, Adam Barry, Christopher O'Keefe, Alex Landry&lt;/div&gt;
 &lt;div class="line"&gt;Faculty Mentor: Jason K. Moore&lt;/div&gt;
 &lt;/div&gt;
@@ -31,7 +31,7 @@ PLC programming for the interaction of each component. The final product has
 the capability of running unattended for 2 hours and only requires additional
 loading of material to continue production.&lt;/p&gt;
 &lt;img alt="" src="http://moorepants.github.io/eme185-splash/images/automator.jpg" style="width: 600px;" /&gt;
-</summary></entry><entry><title>Bus Jack Caddy</title><link href="http://moorepants.github.io/eme185-splash/bus-jack-caddy.html" rel="alternate"></link><published>2016-10-11T00:00:00-07:00</published><updated>2016-10-11T00:00:00-07:00</updated><author><name>Jason K. Moore, PhD</name></author><id>tag:moorepants.github.io,2016-10-11:eme185-splash/bus-jack-caddy.html</id><summary type="html">&lt;div class="line-block"&gt;
+</summary></entry><entry><title>Bus Jack Caddy</title><link href="http://moorepants.github.io/eme185-splash/bus-jack-caddy.html" rel="alternate"></link><published>2016-01-09T00:00:00-08:00</published><updated>2016-01-09T00:00:00-08:00</updated><author><name>Jason K. Moore, PhD</name></author><id>tag:moorepants.github.io,2016-01-09:eme185-splash/bus-jack-caddy.html</id><summary type="html">&lt;div class="line-block"&gt;
 &lt;div class="line"&gt;Student Team: Paul Corcoran, Billy Gong, Tom Phong&lt;/div&gt;
 &lt;div class="line"&gt;Faculty Mentor: Jason K. Moore&lt;/div&gt;
 &lt;/div&gt;
@@ -50,7 +50,7 @@ specifications of the caddy are a total minimum weight of 800lbs, a steel
 construction, and a base size of about twelve square feet. A fully complete and
 working jack was delivered to Unitrans.&lt;/p&gt;
 &lt;img alt="" src="http://moorepants.github.io/eme185-splash/images/caddy-jack-prototype.jpg" /&gt;
-</summary></entry><entry><title>CNC Cardboard Cuter</title><link href="http://moorepants.github.io/eme185-splash/cnc-cardboard-cuter.html" rel="alternate"></link><published>2016-10-11T00:00:00-07:00</published><updated>2016-10-11T00:00:00-07:00</updated><author><name>Jason K. Moore, PhD</name></author><id>tag:moorepants.github.io,2016-10-11:eme185-splash/cnc-cardboard-cuter.html</id><summary type="html">&lt;div class="line-block"&gt;
+</summary></entry><entry><title>CNC Cardboard Cuter</title><link href="http://moorepants.github.io/eme185-splash/cnc-cardboard-cuter.html" rel="alternate"></link><published>2016-01-09T00:00:00-08:00</published><updated>2016-01-09T00:00:00-08:00</updated><author><name>Jason K. Moore, PhD</name></author><id>tag:moorepants.github.io,2016-01-09:eme185-splash/cnc-cardboard-cuter.html</id><summary type="html">&lt;div class="line-block"&gt;
 &lt;div class="line"&gt;Student Team: Silas Walker, Christopher Loos, Angelo Magliola, Jay Nagin&lt;/div&gt;
 &lt;div class="line"&gt;Faculty Mentor: Jason K. Moore&lt;/div&gt;
 &lt;/div&gt;
@@ -65,7 +65,7 @@ used to fit the 2D pieces together and make 3D parts for a variety of
 applications which include making templates for painting, sheet metal work or
 even art projects.&lt;/p&gt;
 &lt;img alt="" src="http://moorepants.github.io/eme185-splash/images/cnc-cardboard-cutter-team.jpg" style="width: 600px;" /&gt;
-</summary></entry><entry><title>DIY Powered Wheelchair</title><link href="http://moorepants.github.io/eme185-splash/diy-powered-wheelchair.html" rel="alternate"></link><published>2016-10-11T00:00:00-07:00</published><updated>2016-10-11T00:00:00-07:00</updated><author><name>Jason K. Moore, PhD</name></author><id>tag:moorepants.github.io,2016-10-11:eme185-splash/diy-powered-wheelchair.html</id><summary type="html">&lt;div class="line-block"&gt;
+</summary></entry><entry><title>DIY Powered Wheelchair</title><link href="http://moorepants.github.io/eme185-splash/diy-powered-wheelchair.html" rel="alternate"></link><published>2016-01-09T00:00:00-08:00</published><updated>2016-01-09T00:00:00-08:00</updated><author><name>Jason K. Moore, PhD</name></author><id>tag:moorepants.github.io,2016-01-09:eme185-splash/diy-powered-wheelchair.html</id><summary type="html">&lt;div class="line-block"&gt;
 &lt;div class="line"&gt;Student Team: Simon Quan, Ilia Potanin, Josh Taggard&lt;/div&gt;
 &lt;div class="line"&gt;Faculty Mentor: Jason K. Moore&lt;/div&gt;
 &lt;/div&gt;
@@ -83,7 +83,7 @@ the current chairs available on the market.&lt;/p&gt;
   height="315"
   src="https://www.youtube.com/embed/7QIGyIN9o2w"
   frameborder="0"
-  allowfullscreen&gt;&lt;/iframe&gt;</summary></entry><entry><title>Improving Sanitation in Cambodia</title><link href="http://moorepants.github.io/eme185-splash/improving-sanitation-in-cambodia.html" rel="alternate"></link><published>2016-10-11T00:00:00-07:00</published><updated>2016-10-11T00:00:00-07:00</updated><author><name>Jason K. Moore, PhD</name></author><id>tag:moorepants.github.io,2016-10-11:eme185-splash/improving-sanitation-in-cambodia.html</id><summary type="html">&lt;div class="line-block"&gt;
+  allowfullscreen&gt;&lt;/iframe&gt;</summary></entry><entry><title>Improving Sanitation in Cambodia</title><link href="http://moorepants.github.io/eme185-splash/improving-sanitation-in-cambodia.html" rel="alternate"></link><published>2016-01-09T00:00:00-08:00</published><updated>2016-01-09T00:00:00-08:00</updated><author><name>Jason K. Moore, PhD</name></author><id>tag:moorepants.github.io,2016-01-09:eme185-splash/improving-sanitation-in-cambodia.html</id><summary type="html">&lt;div class="line-block"&gt;
 &lt;div class="line"&gt;Student Team: Joanne Wu, Rachel Muradian, and Yao Guan&lt;/div&gt;
 &lt;div class="line"&gt;Faculty Mentor: Jason K. Moore&lt;/div&gt;
 &lt;/div&gt;
@@ -104,7 +104,7 @@ goal the students focused on two main objectives: (1) minimizing the cost of
 the system and (2) adapting the system for use with stilted houses.&lt;/p&gt;
 &lt;p&gt;Read more about the project on the &lt;a class="reference external" href="http://mae.ucdavis.edu/blog/mechanical-engineering-undergraduate-students-work-improve-sanitation-cambodia/"&gt;MAE news&lt;/a&gt;.&lt;/p&gt;
 &lt;img alt="" src="http://moorepants.github.io/eme185-splash/images/floating-toilets.jpg" style="width: 600px;" /&gt;
-</summary></entry><entry><title>Weinbot</title><link href="http://moorepants.github.io/eme185-splash/weinbot.html" rel="alternate"></link><published>2014-10-11T00:00:00-07:00</published><updated>2014-10-11T00:00:00-07:00</updated><author><name>Jason K. Moore, PhD</name></author><id>tag:moorepants.github.io,2014-10-11:eme185-splash/weinbot.html</id><summary type="html">&lt;div class="line-block"&gt;
+</summary></entry><entry><title>Weinbot</title><link href="http://moorepants.github.io/eme185-splash/weinbot.html" rel="alternate"></link><published>2014-01-09T00:00:00-08:00</published><updated>2014-01-09T00:00:00-08:00</updated><author><name>Jason K. Moore, PhD</name></author><id>tag:moorepants.github.io,2014-01-09:eme185-splash/weinbot.html</id><summary type="html">&lt;div class="line-block"&gt;
 &lt;div class="line"&gt;Student Team: Egan McComb, Ardalan Moazeni, Natalie Pueyo Svoboda, Kyle Turner&lt;/div&gt;
 &lt;div class="line"&gt;Faculty Advisor: Prof. Cristina Davis, Prof Stephen Robinson&lt;/div&gt;
 &lt;div class="line"&gt;Sponsor: Professor David Block&lt;/div&gt;
@@ -117,7 +117,7 @@ This design is an autonomous proof-of-concept industrial winery floor care
 robot. The battery powered device can effectively dislodge and collect solid
 grape waste from typical winery concrete flooring with minimal water use.&lt;/p&gt;
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/SKNtMgGCCyI"
-  frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</summary></entry><entry><title>Wave Energy Converter</title><link href="http://moorepants.github.io/eme185-splash/wave-energy-converter.html" rel="alternate"></link><published>2013-10-11T00:00:00-07:00</published><updated>2013-10-11T00:00:00-07:00</updated><author><name>Jason K. Moore, PhD</name></author><id>tag:moorepants.github.io,2013-10-11:eme185-splash/wave-energy-converter.html</id><summary type="html">&lt;div class="line-block"&gt;
+  frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</summary></entry><entry><title>Wave Energy Converter</title><link href="http://moorepants.github.io/eme185-splash/wave-energy-converter.html" rel="alternate"></link><published>2013-01-09T00:00:00-08:00</published><updated>2013-01-09T00:00:00-08:00</updated><author><name>Jason K. Moore, PhD</name></author><id>tag:moorepants.github.io,2013-01-09:eme185-splash/wave-energy-converter.html</id><summary type="html">&lt;div class="line-block"&gt;
 &lt;div class="line"&gt;Team: Nick Raymond, Thomas Rumble, Teresa Yeh, Kevin Quach, Alex Beckerman&lt;/div&gt;
 &lt;div class="line"&gt;Faculty Mentor: Professor Cristina Davis&lt;/div&gt;
 &lt;div class="line"&gt;Website: &lt;a class="reference external" href="https://oceanpowerproject.wordpress.com"&gt;https://oceanpowerproject.wordpress.com&lt;/a&gt;&lt;/div&gt;
@@ -144,7 +144,7 @@ watts. Even though the device failed to meet the expected power output, the
 team has compiled the following information and shared it on this website in
 hopes of encouraging others to take on similar projects and make improvements
 to the work that has already been done.&lt;/p&gt;
-</summary></entry><entry><title>Low-cost Pediatric Treadmill</title><link href="http://moorepants.github.io/eme185-splash/low-cost-pediatric-treadmill.html" rel="alternate"></link><published>2011-10-11T00:00:00-07:00</published><updated>2011-10-11T00:00:00-07:00</updated><author><name>Jason K. Moore, PhD</name></author><id>tag:moorepants.github.io,2011-10-11:eme185-splash/low-cost-pediatric-treadmill.html</id><summary type="html">&lt;div class="line-block"&gt;
+</summary></entry><entry><title>Low-cost Pediatric Treadmill</title><link href="http://moorepants.github.io/eme185-splash/low-cost-pediatric-treadmill.html" rel="alternate"></link><published>2011-01-09T00:00:00-08:00</published><updated>2011-01-09T00:00:00-08:00</updated><author><name>Jason K. Moore, PhD</name></author><id>tag:moorepants.github.io,2011-01-09:eme185-splash/low-cost-pediatric-treadmill.html</id><summary type="html">&lt;div class="line-block"&gt;
 &lt;div class="line"&gt;Student Team: Derek Chow, Adam Li, Norman Lei, Erik Pettitt&lt;/div&gt;
 &lt;div class="line"&gt;Faculty Mentor: Prof. Cristina Davis&lt;/div&gt;
 &lt;/div&gt;
