@@ -3,6 +3,8 @@
 if(!defined('STDOUT')) define('STDOUT', fopen('php://stdout', 'w'));
 
 $timestamp = date( "Y-m-d H:i:s", mktime(0, 0, 0));
+$url = "";
+$message = "";
 
 // Check for empty fields
 if(empty($_POST['name']) ||
@@ -13,16 +15,24 @@ if(empty($_POST['name']) ||
    empty($_POST['message']) ||
    !filter_var($_POST['email'],FILTER_VALIDATE_EMAIL))
    {
-   echo "No arguments Provided!";
-   return false;
+     echo "No arguments Provided!";
+     return false;
    }
 
-$name = $_POST['name'];
-$org = $_POST['org'];
-$email_address = $_POST['email'];
-$phone = $_POST['phone'];
-$title = $_POST['title'];
-$message = $_POST['message'];
+if(!empty($_POST['url']) &&
+   !filter_var($_POST['url'],FILTER_VALIDATE_URL))
+   {
+     echo "No arguments Provided!";
+     return false;
+   }
+
+$name = strip_tags(htmlspecialchars($_POST['name']));
+$org = strip_tags(htmlspecialchars($_POST['org']));
+$email_address = strip_tags(htmlspecialchars($_POST['email']));
+$phone = strip_tags(htmlspecialchars($_POST['phone']));
+$url = strip_tags(htmlspecialchars($_POST['url']));
+$title = strip_tags(htmlspecialchars($_POST['title']));
+$message = htmlspecialchars($_POST['message']);
 
 // http://www.html-form-guide.com/email-form/php-email-form-attachment.html
 
@@ -103,6 +113,7 @@ $file->fputcsv(array(
   $org,
   $email_address,
   $phone,
+  $url,
   $title,
   preg_replace("/[\n\r]/", '\n', $message),
   $attachment_filename
@@ -122,6 +133,7 @@ Name: $name\r\n\r\n
 Organization: $org\r\n\r\n
 Email: $email_address\r\n\r\n
 Phone: $phone\r\n\r\n
+URL: $url\r\n\r\n
 Title: $title\r\n\r\n
 Attachment: $attachment_filename\r\n\r\n
 Message:\n$message

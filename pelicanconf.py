@@ -60,6 +60,7 @@ CONTACT_FIELDS = (
     ['Email Address', 'email', 'email', 'Please enter your email address.'],
     ['Phone Number', 'tel', 'phone', 'Please enter your phone number.'],
     ['Proposal Title', 'text', 'title', 'Please enter your proposal title.'],
+    ['Organization URL', 'text', 'url', "Please enter your organization's url."],
     ['Proposal Text (an additional single file attachment is also supported below)', 'textarea', 'message', 'Please enter a proposal.']
 )
 
