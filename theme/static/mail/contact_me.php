@@ -121,7 +121,7 @@ $file->fputcsv(array(
 $file = null;
 
 // Create the email and send the message
-$to = 'jkm@ucdavis.edu';
+$to = 'moorepants@gmail.com';
 $to_name = "Jason K. Moore";
 $from = 'noreply@ucdavis.edu';
 $from_name = 'MECH-CAP Website';
