@@ -1,19 +1,24 @@
-from fabric.api import *
-import fabric.contrib.project as project
 import os
 import shutil
 import sys
 import SocketServer
 
+from fabric.api import *
+import fabric.contrib.project as project
 from pelican.server import ComplexHTTPRequestHandler
+import yaml
 
 # Local path configuration (can be absolute or relative to fabfile)
 env.deploy_path = 'output'
 DEPLOY_PATH = env.deploy_path
 
 # Remote server configuration
-production = 'jasonkmoore@moorepants.info'
-dest_path = '/home/jasonkmoore/moorepants.info/mech-cap'
+# NOTE : Create a "server_details.yml" file with username and domain.
+with open('server_details.yml', 'r') as f:
+    server_details = yaml.load(f)
+production = server_details['username'] + '@' + server_details['domain']
+dest_path = ('/home/' + server_details['username'] + '/' +
+             server_details['domain'] + '/mech-cap')
 
 # Rackspace Cloud Files configuration settings
 env.cloudfiles_username = 'my_rackspace_username'
