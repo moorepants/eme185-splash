@@ -27,6 +27,9 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
           {% for link, title  in NAVLINKS %}
+            <!-- NOTE: Apparently this is incorrect, see
+              https://github.com/ondoheer/freelancer-theme-pelican/issues/1,
+              but it puts a miscolored rectangle in the menu if changed. -->
             {%if link == '#page-top' %}
             <li class="hidden">
               <a href="{{link}}"></a>
