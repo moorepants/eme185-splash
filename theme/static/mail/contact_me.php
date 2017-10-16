@@ -172,6 +172,7 @@ if ($attachment_filename != ""){
 //send the message, check for errors
 if (!$mail->send()) {
     echo "Mailer Error: " . $mail->ErrorInfo;
+    error_log("Mailer Error: " . $mail->ErrorInfo, 0);
 } else {
     echo "Message sent!";
 }
@@ -202,6 +203,7 @@ $conf_mail->Subject = "Your UCD MECH-CAP proposal has been received.";
 $conf_mail->Body = $conf_email_body;
 if (!$conf_mail->send()) {
     echo "Mailer Error: " . $conf_mail->ErrorInfo;
+    error_log("Mailer Error: " . $conf_mail->ErrorInfo, 0);
 } else {
     echo "Message sent!";
 }
