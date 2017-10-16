@@ -197,7 +197,7 @@ $conf_mail = new PHPMailer;
 $conf_mail->isSendmail();
 $conf_mail->ContentType = 'text/plain';
 $conf_mail->IsHTML(false);
-$conf_mail->setFrom($to, $to_name);
+$conf_mail->setFrom('jkm@ucdavis.edu', 'Jason K. Moore');
 $conf_mail->addAddress($email_address, $name);
 $conf_mail->Subject = "Your UCD MECH-CAP proposal has been received.";
 $conf_mail->Body = $conf_email_body;
