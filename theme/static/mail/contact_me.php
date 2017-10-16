@@ -15,6 +15,7 @@ if(empty($_POST['name']) ||
    empty($_POST['message']) ||
    !filter_var($_POST['email'],FILTER_VALIDATE_EMAIL))
    {
+     error_log("Empty form fields or invalid email.", 0);
      echo "No arguments Provided!";
      return false;
    }
@@ -22,7 +23,7 @@ if(empty($_POST['name']) ||
 if(!empty($_POST['url']) &&
    !filter_var($_POST['url'],FILTER_VALIDATE_URL))
    {
-     echo "No arguments Provided!";
+     error_log("Invalid URL in form.", 0);
      return false;
    }
 
@@ -194,6 +195,12 @@ if (!$conf_mail->send()) {
 } else {
     echo "Message sent!";
 }
+
+if ($errors != "") {
+  error_log($errors, 0);
+}
+
+error_log("Got to the end of the proposal submission script.", 0);
 
 return true;
 ?>

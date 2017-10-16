@@ -56,12 +56,12 @@ PORTFOLIO = 'Past Projects'
 
 # Contact form fields sorted by: label, input_type, id, required_validation_,msg
 CONTACT_FIELDS = (
-    ['Name', 'text', 'name', 'Please enter your name.'],
-    ['Organization', 'text', 'org', 'Please enter your company or institution.'],
-    ['Email Address', 'email', 'email', 'Please enter your email address.'],
-    ['Phone Number', 'tel', 'phone', 'Please enter your phone number.'],
-    ['Proposal Title', 'text', 'title', 'Please enter your proposal title.'],
-    ['Organization Website URL', 'text', 'url', "Please enter your organization's website url."],
+    ['Name',                     'text',  'name',  'Please enter your name.'],
+    ['Organization',             'text',  'org',   'Please enter your company or institution.'],
+    ['Email Address',            'email', 'email', 'Please enter your email address.'],
+    ['Phone Number',             'tel',   'phone', 'Please enter your phone number.'],
+    ['Proposal Title',           'text',  'title', 'Please enter your proposal title.'],
+    ['Organization Website URL', 'url',   'url',   "Please enter your organization's website url. It must be avalid URL begining with 'http://' or 'https://'."],
     ['Proposal Text (an additional single file attachment is also supported below)', 'textarea', 'message', 'Please enter a proposal.']
 )
 
