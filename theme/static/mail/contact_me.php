@@ -97,15 +97,16 @@ if (!empty($_FILES['file']['name'])) {
       $errors .= '\n error while copying the uploaded file';
     }
   } else {
-    $attachment_filename = "";
+    $attachment_filename = '';
   }
 
-  if ($errors != "") {
+  if ($errors != '') {
     error_log($errors, 0);
   }
 
 } else {
-  $attachment_filename = "no attachment";
+  $attachment_filename = '';
+  error_log('No attachment so skipped file creation.', 0);
 }
 
 // build csv file
