@@ -1,5 +1,7 @@
 <?php
 
+$upload_folder = "/home/jasonkmoore/moorepants.info/eme185-uploads/";
+
 if(!defined('STDOUT')) define('STDOUT', fopen('php://stdout', 'w'));
 
 $timestamp = date( "Y-m-d H:i:s", mktime(0, 0, 0));
@@ -78,7 +80,6 @@ if (!empty($_FILES['file']['name'])) {
   }
 
   //copy the temp. uploaded file to uploads folder
-  $upload_folder = "/home/jasonkmoore/moorepants.info/eme185-uploads/";
   if (!file_exists($upload_folder)) {
       mkdir($upload_folder, 0777, true);
   }
