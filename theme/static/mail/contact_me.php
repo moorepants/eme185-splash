@@ -105,7 +105,7 @@ if (!empty($_FILES['file']['name'])) {
   }
 
 } else {
-  $attachment_filename = "";
+  $attachment_filename = "no attachment";
 }
 
 // build csv file
