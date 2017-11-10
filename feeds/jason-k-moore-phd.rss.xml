@@ -1,110 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>MECH-CAP</title><link>http://moorepants.github.io/eme185-splash/</link><description>UC Davis Mechanical Engineering Capstone</description><lastBuildDate>Sat, 09 Jan 2016 00:00:00 -0800</lastBuildDate><item><title>Adaptive Target for Jumping Studies</title><link>http://moorepants.github.io/eme185-splash/adaptive-target-for-jumping-studies.html</link><description>&lt;div class="line-block"&gt;
+<rss version="2.0"><channel><title>MECH-CAP - Jason K. Moore, PhD</title><link>http://moorepants.github.io/eme185-splash/</link><description>UC Davis Mechanical Engineering Capstone</description><lastBuildDate>Fri, 10 Nov 2017 00:00:00 -0800</lastBuildDate><item><title>Bus Bicycle Storage Rail</title><link>http://moorepants.github.io/eme185-splash/bus-bicycle-storage-rail.html</link><description>&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;Student Team: Seth Dike, Herman Li, Harry Mohamed, Nicholas Pio&lt;/div&gt;
+&lt;div class="line"&gt;Faculty Mentor: Jason K. Moore&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;BikeLeap had tasked our team with the development of a folding bike storage
+solution inside the luggage compartment of an existing motor coach; we have
+delivered a full-scale functioning demo unit of the final design …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Jason K. Moore, PhD</dc:creator><pubDate>Fri, 10 Nov 2017 00:00:00 -0800</pubDate><guid isPermaLink="false">tag:moorepants.github.io,2017-11-10:/eme185-splash/bus-bicycle-storage-rail.html</guid></item><item><title>Koalaty Kontrol Machine</title><link>http://moorepants.github.io/eme185-splash/koalaty-kontrol-machine.html</link><description>&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;Student Team: Philip Eriksson, Garrett Kawakita, Bryce Phelps, Evan Tanaka&lt;/div&gt;
+&lt;div class="line"&gt;Faculty Mentor: Jason K. Moore&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;An automated surface finish detection machine for the quality control of gage
+pins.&lt;/p&gt;
+&lt;img alt="" src="http://moorepants.github.io/eme185-splash/images/inspec-machine.jpg" style="width: 600px;" /&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Jason K. Moore, PhD</dc:creator><pubDate>Fri, 10 Nov 2017 00:00:00 -0800</pubDate><guid isPermaLink="false">tag:moorepants.github.io,2017-11-10:/eme185-splash/koalaty-kontrol-machine.html</guid></item><item><title>Quadraplegic Friendly Trike</title><link>http://moorepants.github.io/eme185-splash/quadraplegic-friendly-trike.html</link><description>&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;Student Team: Felicia Fashanu, Haowei Li, Jake Parkhurst, Aaron Shaw&lt;/div&gt;
+&lt;div class="line"&gt;Faculty Mentors: Jason K. Moore and Anthony Passerini&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Amyotrophic lateral sclerosis (ALS) is a disease that gradually disables the
+motor functions of the body. Our project is to adapt a proof-of-concept
+joystick-driven tricycle so that it can be used by …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Jason K. Moore, PhD</dc:creator><pubDate>Fri, 10 Nov 2017 00:00:00 -0800</pubDate><guid isPermaLink="false">tag:moorepants.github.io,2017-11-10:/eme185-splash/quadraplegic-friendly-trike.html</guid></item><item><title>Adaptive Target for Jumping Studies</title><link>http://moorepants.github.io/eme185-splash/adaptive-target-for-jumping-studies.html</link><description>&lt;div class="line-block"&gt;
 &lt;div class="line"&gt;Student Team: Jacob Alameda, Cyrus Caretto, Joseph Chua&lt;/div&gt;
 &lt;div class="line"&gt;Faculty Mentor: Jason K. Moore&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;Jumping studies in which a person jumps repeatedly for thirty seconds or longer
 are conducted assuming the person being tested is giving his or her best effort
-with every jump. However, the data collected from such studies shows this is
-likely not the case. The team was tasked with designing and building an
-adaptive target that adjusted to the performance of the subject. A ceiling
-mounted design using a basketball controlled by three pulleys was selected as
-the concept to be built. The height of the basketball is controlled by a
-stepper motor and Arduino Uno, and responds to two proximity sensors and an
-accelerometer which indicates the test subject’s jump heights. This design was
-chosen because it was simple to build, easy to store away, and is the best way
-satisfy all of our sponsor’s needs and suggestions.&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Jason K. Moore, PhD</dc:creator><pubDate>Sat, 09 Jan 2016 00:00:00 -0800</pubDate><guid isPermaLink="false">tag:moorepants.github.io,2016-01-09:eme185-splash/adaptive-target-for-jumping-studies.html</guid></item><item><title>Automatic Board Feeder for Custom Saw/drill Station</title><link>http://moorepants.github.io/eme185-splash/automatic-board-feeder-for-custom-sawdrill-station.html</link><description>&lt;div class="line-block"&gt;
+with every jump. However, the data collected from such studies …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Jason K. Moore, PhD</dc:creator><pubDate>Thu, 10 Nov 2016 00:00:00 -0800</pubDate><guid isPermaLink="false">tag:moorepants.github.io,2016-11-10:/eme185-splash/adaptive-target-for-jumping-studies.html</guid></item><item><title>Automatic Board Feeder for Custom Saw/drill Station</title><link>http://moorepants.github.io/eme185-splash/automatic-board-feeder-for-custom-sawdrill-station.html</link><description>&lt;div class="line-block"&gt;
 &lt;div class="line"&gt;Student Team: Micah Starr, Adam Barry, Christopher O'Keefe, Alex Landry&lt;/div&gt;
 &lt;div class="line"&gt;Faculty Mentor: Jason K. Moore&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;Micro-Vu Corporation designs and manufactures optical measurement machines. As
 a California based manufacturer, automation is critical to keeping costs low.
 To reduce labor intensive processes, Micro-Vu developed a semi-automatic cut
-and drill station for 14' wooden boards in the summer of 2015. The primary
-purpose of this project is to design, manufacture, assemble, and verify an
-automated board-loader and unloader to fully automate the custom cut and drill
-station. The solution to this challenge includes pneumatics to simplify the
-movement of materials, brushless DC motors to transfer boards from storage
-locations to the infeed table, sensors for material location verification, and
-PLC programming for the interaction of each component. The final product has
-the capability of running unattended for 2 hours and only requires additional
-loading of material to continue production.&lt;/p&gt;
-&lt;img alt="" src="http://moorepants.github.io/eme185-splash/images/automator.jpg" style="width: 600px;" /&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Jason K. Moore, PhD</dc:creator><pubDate>Sat, 09 Jan 2016 00:00:00 -0800</pubDate><guid isPermaLink="false">tag:moorepants.github.io,2016-01-09:eme185-splash/automatic-board-feeder-for-custom-sawdrill-station.html</guid></item><item><title>Bus Jack Caddy</title><link>http://moorepants.github.io/eme185-splash/bus-jack-caddy.html</link><description>&lt;div class="line-block"&gt;
+and drill station for 14' …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Jason K. Moore, PhD</dc:creator><pubDate>Thu, 10 Nov 2016 00:00:00 -0800</pubDate><guid isPermaLink="false">tag:moorepants.github.io,2016-11-10:/eme185-splash/automatic-board-feeder-for-custom-sawdrill-station.html</guid></item><item><title>Bus Jack Caddy</title><link>http://moorepants.github.io/eme185-splash/bus-jack-caddy.html</link><description>&lt;div class="line-block"&gt;
 &lt;div class="line"&gt;Student Team: Paul Corcoran, Billy Gong, Tom Phong&lt;/div&gt;
 &lt;div class="line"&gt;Faculty Mentor: Jason K. Moore&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;A caddy was constructed to aid in the installation and removal of a Stertil
 Koni JB­160 rolling jack onto a Stertil Koni SkyLift. The purpose of the caddy
-is to eliminate the need for an additional recess in the ground that would have
-been added to house the permanently mounted jack. The target of the project was
-to produce a deliverable that was easy to repair, durable, and economically
-feasible. The identified sub­problems that had to be considered were
-maneuverability, lifting mechanism, and effectively interface with the lift.
-These factors all play an equally important role in the performance and
-structural integrity of the caddy because after all, the caddy has to be able
-to withstand a heavy load while lifting the jack up to be mounted onto the
-SkyLift as well as travel environment of the Unitrans facility. Some
-specifications of the caddy are a total minimum weight of 800lbs, a steel
-construction, and a base size of about twelve square feet. A fully complete and
-working jack was delivered to Unitrans.&lt;/p&gt;
-&lt;img alt="" src="http://moorepants.github.io/eme185-splash/images/caddy-jack-prototype.jpg" /&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Jason K. Moore, PhD</dc:creator><pubDate>Sat, 09 Jan 2016 00:00:00 -0800</pubDate><guid isPermaLink="false">tag:moorepants.github.io,2016-01-09:eme185-splash/bus-jack-caddy.html</guid></item><item><title>CNC Cardboard Cuter</title><link>http://moorepants.github.io/eme185-splash/cnc-cardboard-cuter.html</link><description>&lt;div class="line-block"&gt;
+is to eliminate the need for an additional …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Jason K. Moore, PhD</dc:creator><pubDate>Thu, 10 Nov 2016 00:00:00 -0800</pubDate><guid isPermaLink="false">tag:moorepants.github.io,2016-11-10:/eme185-splash/bus-jack-caddy.html</guid></item><item><title>CNC Cardboard Cuter</title><link>http://moorepants.github.io/eme185-splash/cnc-cardboard-cuter.html</link><description>&lt;div class="line-block"&gt;
 &lt;div class="line"&gt;Student Team: Silas Walker, Christopher Loos, Angelo Magliola, Jay Nagin&lt;/div&gt;
 &lt;div class="line"&gt;Faculty Mentor: Jason K. Moore&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;The team &amp;quot;From Here to Woodland&amp;quot; has designed and built a safe CNC machine
 capable of cutting cardboard with the ultimate goal of providing students the
-opportunity to learn about CNC machines and use the knowledge to make
-prototypes of their ideas. The machine is completely open source and made from
-easily obtainable parts, making it cheaper than comparable 3D printing methods.
-The CNC Cardboard Cutter allows students to cut shapes out of cardboard or make
-fold lines in the cardboard from an engraving pass. The cut and fold lines are
-used to fit the 2D pieces together and make 3D parts for a variety of
-applications which include making templates for painting, sheet metal work or
-even art projects.&lt;/p&gt;
-&lt;img alt="" src="http://moorepants.github.io/eme185-splash/images/cnc-cardboard-cutter-team.jpg" style="width: 600px;" /&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Jason K. Moore, PhD</dc:creator><pubDate>Sat, 09 Jan 2016 00:00:00 -0800</pubDate><guid isPermaLink="false">tag:moorepants.github.io,2016-01-09:eme185-splash/cnc-cardboard-cuter.html</guid></item><item><title>DIY Powered Wheelchair</title><link>http://moorepants.github.io/eme185-splash/diy-powered-wheelchair.html</link><description>&lt;div class="line-block"&gt;
+opportunity to learn about CNC machines and use the …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Jason K. Moore, PhD</dc:creator><pubDate>Thu, 10 Nov 2016 00:00:00 -0800</pubDate><guid isPermaLink="false">tag:moorepants.github.io,2016-11-10:/eme185-splash/cnc-cardboard-cuter.html</guid></item><item><title>DIY Powered Wheelchair</title><link>http://moorepants.github.io/eme185-splash/diy-powered-wheelchair.html</link><description>&lt;div class="line-block"&gt;
 &lt;div class="line"&gt;Student Team: Simon Quan, Ilia Potanin, Josh Taggard&lt;/div&gt;
 &lt;div class="line"&gt;Faculty Mentor: Jason K. Moore&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;This group was tasked with developing an &amp;quot;open source&amp;quot; power wheelchair which
 could be built, maintained, and modified using off-the-shelf components that
 helps serve the broader goal to give people with disabilities an option to
-build their own chairs without relying on expensive and bureaucratic medical
-supply companies. The final design uses readily available parts, is quickly and
-easily repairable, and is built using only garage tools. The students
-demonstrated a fully working chassis with electronic controls that met the
-desired specifications and is thus be able to perform at a level at or above
-the current chairs available on the market.&lt;/p&gt;
-&lt;iframe
-  width="560"
-  height="315"
-  src="https://www.youtube.com/embed/7QIGyIN9o2w"
-  frameborder="0"
-  allowfullscreen&gt;&lt;/iframe&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Jason K. Moore, PhD</dc:creator><pubDate>Sat, 09 Jan 2016 00:00:00 -0800</pubDate><guid isPermaLink="false">tag:moorepants.github.io,2016-01-09:eme185-splash/diy-powered-wheelchair.html</guid></item><item><title>Improving Sanitation in Cambodia</title><link>http://moorepants.github.io/eme185-splash/improving-sanitation-in-cambodia.html</link><description>&lt;div class="line-block"&gt;
+build their …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Jason K. Moore, PhD</dc:creator><pubDate>Thu, 10 Nov 2016 00:00:00 -0800</pubDate><guid isPermaLink="false">tag:moorepants.github.io,2016-11-10:/eme185-splash/diy-powered-wheelchair.html</guid></item><item><title>Improving Sanitation in Cambodia</title><link>http://moorepants.github.io/eme185-splash/improving-sanitation-in-cambodia.html</link><description>&lt;div class="line-block"&gt;
 &lt;div class="line"&gt;Student Team: Joanne Wu, Rachel Muradian, and Yao Guan&lt;/div&gt;
 &lt;div class="line"&gt;Faculty Mentor: Jason K. Moore&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;For this mechanical engineering senior design capstone project the students
 worked on improving sanitation in floating communities along the Tonle Sap lake
 in Cambodia.&lt;/p&gt;
-&lt;p&gt;The students partnered with Wetlands Work! (WW!), a social enterprise based in
-Cambodia that designs sanitation and wastewater treatment solutions. The
-HandyPod is a sanitation solution designed by WW! for use in floating
-communities along the Tonle Sap lake. Pilot studies indicate that the HandyPod
-system is very effective at reducing pathogenic content in the lake. However,
-its $150 price tag is somewhat cost prohibitive. Furthermore, the current
-system is built for use with floating houses and is thus not viable for use
-with stilted houses and other types of houses along the lake.&lt;/p&gt;
-&lt;p&gt;The overall goal of the partnership with WW! was to increase uptake of the
-HandyPod system among residents of the floating communities. To achieve this
-goal the students focused on two main objectives: (1) minimizing the cost of
-the system and (2) adapting the system for use with stilted houses.&lt;/p&gt;
-&lt;p&gt;Read more about the project on the &lt;a class="reference external" href="http://mae.ucdavis.edu/blog/mechanical-engineering-undergraduate-students-work-improve-sanitation-cambodia/"&gt;MAE news&lt;/a&gt;.&lt;/p&gt;
-&lt;img alt="" src="http://moorepants.github.io/eme185-splash/images/floating-toilets.jpg" style="width: 600px;" /&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Jason K. Moore, PhD</dc:creator><pubDate>Sat, 09 Jan 2016 00:00:00 -0800</pubDate><guid isPermaLink="false">tag:moorepants.github.io,2016-01-09:eme185-splash/improving-sanitation-in-cambodia.html</guid></item><item><title>Weinbot</title><link>http://moorepants.github.io/eme185-splash/weinbot.html</link><description>&lt;div class="line-block"&gt;
+&lt;p&gt;The students partnered with Wetlands Work! (WW!), a social enterprise based in …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Jason K. Moore, PhD</dc:creator><pubDate>Thu, 10 Nov 2016 00:00:00 -0800</pubDate><guid isPermaLink="false">tag:moorepants.github.io,2016-11-10:/eme185-splash/improving-sanitation-in-cambodia.html</guid></item><item><title>Weinbot</title><link>http://moorepants.github.io/eme185-splash/weinbot.html</link><description>&lt;div class="line-block"&gt;
 &lt;div class="line"&gt;Student Team: Egan McComb, Ardalan Moazeni, Natalie Pueyo Svoboda, Kyle Turner&lt;/div&gt;
 &lt;div class="line"&gt;Faculty Advisor: Prof. Cristina Davis, Prof Stephen Robinson&lt;/div&gt;
 &lt;div class="line"&gt;Sponsor: Professor David Block&lt;/div&gt;
@@ -112,54 +65,18 @@ the system and (2) adapting the system for use with stilted houses.&lt;/p&gt;
 &lt;div class="line"&gt;More info: &lt;a class="reference external" href="https://www.behance.net/gallery/27587497/Autonomous-Floor-Cleaning-Robot"&gt;https://www.behance.net/gallery/27587497/Autonomous-Floor-Cleaning-Robot&lt;/a&gt;&lt;/div&gt;
 &lt;div class="line"&gt;Software Repository: &lt;a class="reference external" href="https://github.com/egan/weinbot"&gt;https://github.com/egan/weinbot&lt;/a&gt;&lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;The current crush pad cleanup at most wineries is grossly water inefficient.
-This design is an autonomous proof-of-concept industrial winery floor care
-robot. The battery powered device can effectively dislodge and collect solid
-grape waste from typical winery concrete flooring with minimal water use.&lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/SKNtMgGCCyI"
-  frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Jason K. Moore, PhD</dc:creator><pubDate>Thu, 09 Jan 2014 00:00:00 -0800</pubDate><guid isPermaLink="false">tag:moorepants.github.io,2014-01-09:eme185-splash/weinbot.html</guid></item><item><title>Wave Energy Converter</title><link>http://moorepants.github.io/eme185-splash/wave-energy-converter.html</link><description>&lt;div class="line-block"&gt;
+&lt;p&gt;The current crush pad cleanup …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Jason K. Moore, PhD</dc:creator><pubDate>Mon, 10 Nov 2014 00:00:00 -0800</pubDate><guid isPermaLink="false">tag:moorepants.github.io,2014-11-10:/eme185-splash/weinbot.html</guid></item><item><title>Wave Energy Converter</title><link>http://moorepants.github.io/eme185-splash/wave-energy-converter.html</link><description>&lt;div class="line-block"&gt;
 &lt;div class="line"&gt;Team: Nick Raymond, Thomas Rumble, Teresa Yeh, Kevin Quach, Alex Beckerman&lt;/div&gt;
 &lt;div class="line"&gt;Faculty Mentor: Professor Cristina Davis&lt;/div&gt;
 &lt;div class="line"&gt;Website: &lt;a class="reference external" href="https://oceanpowerproject.wordpress.com"&gt;https://oceanpowerproject.wordpress.com&lt;/a&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;The ocean holds a vast potential of energy, that if effectively converted,
 could be used as a plentiful and reliable source of renewable energy. One way
-to capture that energy is through the use of wave energy converters (WEC),
-machines that convert the motion of ocean waves into clean electricity. One
-possible approach to increasing the use of ocean power in the United States,
-and gaining support from the general population, is to give the public access
-to a basic design that individuals or collective groups could build and improve
-upon. Our goal was to develop the basic framework for a wave energy converter
-(WEC) and share this information with the public.&lt;/p&gt;
-&lt;img alt="" src="http://moorepants.github.io/eme185-splash/images/wave-energy-buoy-construction.jpg" /&gt;
-&lt;p&gt;To achieve this objective, a team of five mechanical engineering students
-designed, built, and tested a fully functioning wave energy converter with the
-goal of generating 150 watts of peak power. The WEC was engineered to be
-modular, capable of being transported by a light-duty vehicle, and constructed
-using off-the-shelf components and parts. To validate the system design, the
-team conducted ocean testing in Bodega Bay, California, and measured power
-output over the period of five days. Due to premature mechanical failure of the
-generator coupling, the device was only able to produce a peak power of 38
-watts. Even though the device failed to meet the expected power output, the
-team has compiled the following information and shared it on this website in
-hopes of encouraging others to take on similar projects and make improvements
-to the work that has already been done.&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Jason K. Moore, PhD</dc:creator><pubDate>Wed, 09 Jan 2013 00:00:00 -0800</pubDate><guid isPermaLink="false">tag:moorepants.github.io,2013-01-09:eme185-splash/wave-energy-converter.html</guid></item><item><title>Low-cost Pediatric Treadmill</title><link>http://moorepants.github.io/eme185-splash/low-cost-pediatric-treadmill.html</link><description>&lt;div class="line-block"&gt;
+to capture that …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Jason K. Moore, PhD</dc:creator><pubDate>Sun, 10 Nov 2013 00:00:00 -0800</pubDate><guid isPermaLink="false">tag:moorepants.github.io,2013-11-10:/eme185-splash/wave-energy-converter.html</guid></item><item><title>Low-cost Pediatric Treadmill</title><link>http://moorepants.github.io/eme185-splash/low-cost-pediatric-treadmill.html</link><description>&lt;div class="line-block"&gt;
 &lt;div class="line"&gt;Student Team: Derek Chow, Adam Li, Norman Lei, Erik Pettitt&lt;/div&gt;
 &lt;div class="line"&gt;Faculty Mentor: Prof. Cristina Davis&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;Easter Seals, an organization dedicated to enriching the lives of those with
 autism and other disabilities, tasked us with the design and construction of a
 portable treadmill for young children diagnosed with motor disabilities.
-Therapeutic use of a treadmill at a young age can accelerate the development of
-a child's walking skills. Our pediatric treadmill is designed to fit the
-everyday family household. The core concepts of the treadmill's features
-closely mirror industrial treadmill design, including the use of a walking
-belt, rollers, and an electric motor drivetrain. Intuitive and safe controls
-are provided for a supervising adult to operate at speeds in the range of 0.1
-to 1.0 miles per hour. Other features of the pediatric treadmill are that it is
-lightweight, transportable, and has low initial and maintenance costs.  The
-design of the pediatric treadmill aims to provide a viable and long-lasting
-solution for promoting development of motor skills in children.&lt;/p&gt;
-&lt;img alt="" src="http://moorepants.github.io/eme185-splash/images/pediatric-treadmill.png" /&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Jason K. Moore, PhD</dc:creator><pubDate>Sun, 09 Jan 2011 00:00:00 -0800</pubDate><guid isPermaLink="false">tag:moorepants.github.io,2011-01-09:eme185-splash/low-cost-pediatric-treadmill.html</guid></item></channel></rss>
+Therapeutic …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Jason K. Moore, PhD</dc:creator><pubDate>Thu, 10 Nov 2011 00:00:00 -0800</pubDate><guid isPermaLink="false">tag:moorepants.github.io,2011-11-10:/eme185-splash/low-cost-pediatric-treadmill.html</guid></item></channel></rss>

@@ -13,6 +13,7 @@ $(function() {
             var email = $("input#email").val();
             var phone = $("input#phone").val();
             var title = $("input#title").val();
+            var url = $("input#url").val();
             var message = $("textarea#message").val();
             var firstName = name; // For Success/Failure Message
             // Check for white space in name for Success/Fail message
@@ -24,6 +25,7 @@ $(function() {
             formData.append('org', org);
             formData.append('email', email);
             formData.append('phone', phone);
+            formData.append('url', url);
             formData.append('title', title);
             formData.append('message', message);
             formData.append('file', $('#file').prop('files')[0]);

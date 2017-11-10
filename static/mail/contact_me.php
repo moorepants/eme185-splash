@@ -1,8 +1,12 @@
 <?php
 
+$upload_folder = "/home/jasonkmoore/moorepants.info/eme185-uploads/";
+
 if(!defined('STDOUT')) define('STDOUT', fopen('php://stdout', 'w'));
 
 $timestamp = date( "Y-m-d H:i:s", mktime(0, 0, 0));
+$url = "";
+$message = "";
 
 // Check for empty fields
 if(empty($_POST['name']) ||
@@ -13,79 +17,97 @@ if(empty($_POST['name']) ||
    empty($_POST['message']) ||
    !filter_var($_POST['email'],FILTER_VALIDATE_EMAIL))
    {
-   echo "No arguments Provided!";
-   return false;
+     error_log("Empty form fields or invalid email.", 0);
+     echo "No arguments Provided!";
+     return false;
    }
 
-$name = $_POST['name'];
-$org = $_POST['org'];
-$email_address = $_POST['email'];
-$phone = $_POST['phone'];
-$title = $_POST['title'];
-$message = $_POST['message'];
+if(!empty($_POST['url']) &&
+   !filter_var($_POST['url'],FILTER_VALIDATE_URL))
+   {
+     error_log("Invalid URL in form.", 0);
+     return false;
+   }
 
-// http://www.html-form-guide.com/email-form/php-email-form-attachment.html
+$name = strip_tags(htmlspecialchars($_POST['name']));
+$org = strip_tags(htmlspecialchars($_POST['org']));
+$email_address = strip_tags(htmlspecialchars($_POST['email']));
+$phone = strip_tags(htmlspecialchars($_POST['phone']));
+$url = strip_tags(htmlspecialchars($_POST['url']));
+$title = strip_tags(htmlspecialchars($_POST['title']));
+$message = htmlspecialchars($_POST['message']);
 
-//Get the uploaded file information
-$name_of_uploaded_file = basename($_FILES['file']['name']);
+if (!empty($_FILES['file']['name'])) {
+  // http://www.html-form-guide.com/email-form/php-email-form-attachment.html
 
-//get the file extension of the file
-$type_of_uploaded_file =
-    substr($name_of_uploaded_file,
-    strrpos($name_of_uploaded_file, '.') + 1);
+  //Get the uploaded file information
+  $name_of_uploaded_file = basename($_FILES['file']['name']);
 
-$size_of_uploaded_file =
-    $_FILES["file"]["size"]/1024;//size in KBs
+  //get the file extension of the file
+  $type_of_uploaded_file =
+      substr($name_of_uploaded_file,
+      strrpos($name_of_uploaded_file, '.') + 1);
 
-//Settings
-$max_allowed_file_size = 5000; // size in KB
-$allowed_extensions = array("txt", "rst", "md", "pdf", "odt", "doc", "docx", "jpg", "gif", "png");
+  $size_of_uploaded_file =
+      $_FILES["file"]["size"]/1024;//size in KBs
 
-$errors = "";
+  //Settings
+  $max_allowed_file_size = 5000; // size in KB
+  $allowed_extensions = array("txt", "rst", "md", "pdf", "odt", "doc", "docx", "jpg", "gif", "png");
 
-//Validations
-if($size_of_uploaded_file > $max_allowed_file_size )
-{
-  $errors .= "\n Size of file should be less than $max_allowed_file_size";
-}
+  $errors = "";
 
-//------ Validate the file extension -----
-$allowed_ext = false;
-for($i=0; $i<sizeof($allowed_extensions); $i++)
-{
-  if(strcasecmp($allowed_extensions[$i],$type_of_uploaded_file) == 0)
+  //Validations
+  if($size_of_uploaded_file > $max_allowed_file_size )
   {
-    $allowed_ext = true;
+    $errors .= "\n Size of file should be less than $max_allowed_file_size";
   }
-}
 
-if(!$allowed_ext)
-{
-  $errors .= "\n The uploaded file is not supported file type. ".
-  " Only the following file types are supported: ".implode(',',$allowed_extensions);
-}
-
-//copy the temp. uploaded file to uploads folder
-$upload_folder = "/home/jasonkmoore/moorepants.info/eme185-uploads/";
-if (!file_exists($upload_folder)) {
-    mkdir($upload_folder, 0777, true);
-}
-$shortened_title = substr($title, 0, 10);
-$shortened_org = substr($org, 0, 10);
-$custom_file_name = mb_ereg_replace("([^\w\d\-_\[\]\(\)])", '_',
-  $name."-".$shortened_org."-".$shortened_title);
-$attachment_filename = $custom_file_name.'.'.$type_of_uploaded_file;
-$path_of_uploaded_file = $upload_folder . $attachment_filename;
-$tmp_path = $_FILES["file"]["tmp_name"];
-
-if(is_uploaded_file($tmp_path))
-{
-  if(!copy($tmp_path,$path_of_uploaded_file))
+  //------ Validate the file extension -----
+  $allowed_ext = false;
+  for($i=0; $i<sizeof($allowed_extensions); $i++)
   {
-    $errors .= '\n error while copying the uploaded file';
+    if(strcasecmp($allowed_extensions[$i],$type_of_uploaded_file) == 0)
+    {
+      $allowed_ext = true;
+    }
   }
+
+  if(!$allowed_ext)
+  {
+    $errors .= "\n The uploaded file is not supported file type. ".
+    " Only the following file types are supported: ".implode(',',$allowed_extensions);
+  }
+
+  //copy the temp. uploaded file to uploads folder
+  if (!file_exists($upload_folder)) {
+      mkdir($upload_folder, 0777, true);
+  }
+  $shortened_title = substr($title, 0, 10);
+  $shortened_org = substr($org, 0, 10);
+  $custom_file_name = mb_ereg_replace("([^\w\d\-_\[\]\(\)])", '_',
+    $name."-".$shortened_org."-".$shortened_title);
+  $attachment_filename = $custom_file_name.'.'.$type_of_uploaded_file;
+  $path_of_uploaded_file = $upload_folder . $attachment_filename;
+  $tmp_path = $_FILES["file"]["tmp_name"];
+
+  if(is_uploaded_file($tmp_path))
+  {
+    if(!copy($tmp_path,$path_of_uploaded_file))
+    {
+      $errors .= '\n error while copying the uploaded file';
+    }
+  } else {
+    $attachment_filename = '';
+  }
+
+  if ($errors != '') {
+    error_log($errors, 0);
+  }
+
 } else {
-  $attachment_filename = "";
+  $attachment_filename = '';
+  error_log('No attachment so skipped file creation.', 0);
 }
 
 // build csv file
@@ -103,6 +125,7 @@ $file->fputcsv(array(
   $org,
   $email_address,
   $phone,
+  $url,
   $title,
   preg_replace("/[\n\r]/", '\n', $message),
   $attachment_filename
@@ -110,7 +133,7 @@ $file->fputcsv(array(
 $file = null;
 
 // Create the email and send the message
-$to = 'jkm@ucdavis.edu';
+$to = 'moorepants@gmail.com';
 $to_name = "Jason K. Moore";
 $from = 'noreply@ucdavis.edu';
 $from_name = 'MECH-CAP Website';
@@ -122,6 +145,7 @@ Name: $name\r\n\r\n
 Organization: $org\r\n\r\n
 Email: $email_address\r\n\r\n
 Phone: $phone\r\n\r\n
+URL: $url\r\n\r\n
 Title: $title\r\n\r\n
 Attachment: $attachment_filename\r\n\r\n
 Message:\n$message
@@ -144,11 +168,13 @@ $mail->addAddress($to, $to_name);
 //Set the subject line
 $mail->Subject = $email_subject;
 $mail->Body = $email_body;
-//Attach an image file
-$mail->addAttachment($path_of_uploaded_file);
+if ($attachment_filename != ""){
+  $mail->addAttachment($path_of_uploaded_file);
+}
 //send the message, check for errors
 if (!$mail->send()) {
     echo "Mailer Error: " . $mail->ErrorInfo;
+    error_log("Mailer Error: " . $mail->ErrorInfo, 0);
 } else {
     echo "Message sent!";
 }
@@ -173,15 +199,19 @@ $conf_mail = new PHPMailer;
 $conf_mail->isSendmail();
 $conf_mail->ContentType = 'text/plain';
 $conf_mail->IsHTML(false);
-$conf_mail->setFrom($to, $to_name);
+# NOTE : Doesn't seem to send this email if I have my gmail address here.
+$conf_mail->setFrom('jkm@ucdavis.edu', 'Jason K. Moore');
 $conf_mail->addAddress($email_address, $name);
 $conf_mail->Subject = "Your UCD MECH-CAP proposal has been received.";
 $conf_mail->Body = $conf_email_body;
 if (!$conf_mail->send()) {
     echo "Mailer Error: " . $conf_mail->ErrorInfo;
+    error_log("Mailer Error: " . $conf_mail->ErrorInfo, 0);
 } else {
     echo "Message sent!";
 }
+
+error_log("Got to the end of the proposal submission script.", 0);
 
 return true;
 ?>
