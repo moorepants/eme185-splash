@@ -65,8 +65,8 @@ CONTACT_FIELDS = (
     ['Proposal Text (an additional single file attachment is also supported below)', 'textarea', 'message', 'Please enter a proposal.']
 )
 
-YEAR = '2018'
-SUBMISSION_DEADLINE = datetime(2017, 11, 17, 17)
+YEAR = '2019'  # class year
+SUBMISSION_DEADLINE = datetime(2018, 11, 16, 17)
 
 with open('faq.yml') as f:
     FAQ = yaml.load(f)
@@ -82,7 +82,6 @@ expect in the relationships with the student team, the instructors, and the
 department. If you are not comfortable with what is presented below it is OK
 not to participate from here on forward or if you need clarification before
 proceeding just let me know.
-
 
 The primary educational goal of this course is for the students to demonstrate
 their ability to realize a viable mechanical design from a given need.
